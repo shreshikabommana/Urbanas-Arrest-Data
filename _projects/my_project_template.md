@@ -16,8 +16,17 @@ custom_js:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
 
+# From a dictionary in Altair-Python
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
 
+# Static Side by Side Dashboard
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/first_dashboard.json" style="width: 100%"></vegachart>
+
+# Interactive Side by Side Dashboard
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_plot.json" style="width: 100%"></vegachart>
 
 <!-- these are written in a combo of html and liquid --> 
 
