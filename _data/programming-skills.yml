@@ -1,14 +1,14 @@
-- name: HTML5/CSS3
+- name: SQL
   percentage: 90
   level: Expert
   color: danger
 
-- name: Go
-  percentage: 5
-  level: Beginner
-  color:
+- name: Tableau
+  percentage: 70
+  level: Intermediate
+  color: secondary
 
 - name: Python
-  percentage: 90
+  percentage: 100
   level: Expert
-  color: secondary
+  color: warning

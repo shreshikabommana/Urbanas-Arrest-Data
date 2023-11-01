@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Sanjana&#39;s Projects">
-  <meta property="og:description" content="My name is Sanjana, I am a Masters student at the University of Illinois. I love Math and Data!!">
-  <meta property="og:image" content="https://i0.wp.com/www.threecorgis.com///wp-content/uploads/2014/09/three_corgis618-1-1.jpg">
+  <meta property="og:title" content="Vegalite, Altair">
+  <meta property="og:description" content="Ongoing example!">
+  <meta property="og:image" content="assets/pngs/cars.png">
 
-  <title>Sanjana&#39;s Projects</title>
-  <meta name="description" content="My name is Sanjana, I am a Masters student at the University of Illinois. I love Math and Data!!">
+  <title>Vegalite, Altair</title>
+  <meta name="description" content="Ongoing example!">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -60,7 +60,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
       <a class="nav-item nav-link " href="/blog/">Blog</a>
 
@@ -73,22 +73,27 @@
   </div>
 
 </nav>
-    <div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="example-including-vega-lite">Example including vega-lite</h1>
 
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element">
-        <img src="https://i0.wp.com/www.threecorgis.com///wp-content/uploads/2014/09/three_corgis618-1-1.jpg" alt="Sanjana's Projects" class="circle-image wow animated zoomIn" data-wow-delay=".1s" />
-      </div>
-    </div>
+<vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
 
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">My name is Sanjana, I am a Masters student at the University of Illinois. I love Math and Data!!</p>
+<!-- these are written in a combo of html and liquid -->
 
-  </div>
+<div class="left">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
+  The Data
+</a>
 </div>
 
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
+  The Analysis
+</a>
+</div>
+
+
+</div>
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -131,6 +136,17 @@
 
 </footer>
 
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
 
 
 
