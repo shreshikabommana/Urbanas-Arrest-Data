@@ -5,13 +5,12 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : Sanjana's Projects
+title               : IS445 Jekyll Template 
 description         : >-
-                      My name is Sanjana, I am a Masters student at the University of Illinois.
-                      I love Math and Data!!
+                      I am definitely not a corgi!
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          : sanjnaapai/sanjnaapai.github.io                   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
+repository          : sanjnaapai/sanjnaapai.github.io                   # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -35,13 +34,13 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : Sanjana
-image             : https://i0.wp.com/www.threecorgis.com///wp-content/uploads/2014/09/three_corgis618-1-1.jpg
+  name              : A. P. Corgi
+  image             : https://source.unsplash.com/300x300/?corgi&derpy
 #  behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
 #  facebook          : your_username
-  github            : sanjnaapai #jnaiman # JPN
+  github            : jnaiman # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
