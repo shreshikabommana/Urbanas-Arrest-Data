@@ -204,10 +204,11 @@ alt2 = alt.Chart(data_url).mark_bar().encode(
 db2 = altair_chart1 | alt2
 ```
 
-### Rectangular Plot and bar chart 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/dynamicdb1.json" style="width: 100%"></vegachart>
 
 ### Scatter Plot and bar chart 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/dynamicdb1.json" style="width: 100%"></vegachart>
+
+### Rectangular Plot and bar chart 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dynamicdb2.json" style="width: 100%"></vegachart>
 
 <!-- these are written in a combo of html and liquid --> 
