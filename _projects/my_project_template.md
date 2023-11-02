@@ -217,6 +217,6 @@ db2 = altair_chart1 | alt2
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/sanjnaapai/sanjnaapai.github.io/blob/main/python_notebooks/Homework%238Link.ipynb" text="The Analysis" %}
 </div>
 
