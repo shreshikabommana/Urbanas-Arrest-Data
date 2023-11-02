@@ -10,12 +10,6 @@ custom_js:
   - justcharts
 ---
 
-
-# Example including vega-lite
-
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-
 # From a dictionary in Altair-Python
 
 ### Plot 1
