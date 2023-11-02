@@ -11,7 +11,7 @@ description         : >-
                       I love Math and Data!!
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          :                     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
+repository          : sanjnaapai/sanjnaapai.github.io                   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -36,7 +36,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Sanjana
-  image             : https://i0.wp.com/www.threecorgis.com///wp-content/uploads/2014/09/three_corgis618-1-1.jpg
+image             : https://i0.wp.com/www.threecorgis.com///wp-content/uploads/2014/09/three_corgis618-1-1.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
