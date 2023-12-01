@@ -11,7 +11,7 @@ custom_js:
 ---
 
 # From a dictionary in Altair-Python
-
+ 
 ### Plot 1
 Javascript I used from the previous assignment:
 ```

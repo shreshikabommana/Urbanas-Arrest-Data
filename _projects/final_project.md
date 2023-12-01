@@ -26,7 +26,7 @@ custom_js:
 <a href="https://datausa.io/profile/geo/urbana-il#race_and_ethnicity" class="button">Source- Urbana Police data</a>
 </div>
 
-
+ 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/race.v2.json" style="width: 100%"></vegachart>
 
