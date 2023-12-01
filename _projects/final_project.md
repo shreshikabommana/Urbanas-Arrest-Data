@@ -18,7 +18,7 @@ custom_js:
 </div>
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_v2.json" style="width: 100%"></vegachart>
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/chart2.v2.json" style="width: 100%"></vegachart>
+<!-- <vegachart schema-url="{{ site.baseurl }}/assets/json/chart2.v2.json" style="width: 100%"></vegachart>-->
 
 <iframe width="720px" height="480px" src="https://datausa.io/profile/geo/urbana-il/demographics/race_and_ethnicity?viz=true" frameborder="0" ></iframe>
 
@@ -27,7 +27,6 @@ custom_js:
 </div>
 
  
-
 <vegachart schema-url="{{ site.baseurl }}/assets/json/race.v2.json" style="width: 100%"></vegachart>
 
 <!-- these are written in a combo of html and liquid --> 
